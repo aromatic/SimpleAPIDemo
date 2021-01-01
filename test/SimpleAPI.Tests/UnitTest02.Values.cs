@@ -11,7 +11,7 @@ namespace SimpleAPI.TEST
         [Fact]
         public void TestGetOne() {
             Value returnValue = (Value) test.Get(2);
-            Assert.Equal(5, returnValue.id);
+            Assert.Equal(2, returnValue.id);
         }
 
         [Fact]

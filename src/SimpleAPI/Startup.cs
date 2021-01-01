@@ -44,7 +44,8 @@ namespace SimpleAPI
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SimpleAPI v1"));
             }
 
-            app.UseHttpsRedirection();
+            // rimuovo redirection https
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
